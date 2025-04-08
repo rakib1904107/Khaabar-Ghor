@@ -1,0 +1,174 @@
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.GeneratedMSBuildEditorConfig.editorconfig
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.AssemblyInfoInputs.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.AssemblyInfo.cs
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.csproj.CoreCompileInputs.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.MvcApplicationPartsAssemblyInfo.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.RazorAssemblyInfo.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.RazorAssemblyInfo.cs
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.sourcelink.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\appsettings.Development.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\appsettings.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.staticwebassets.runtime.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.exe
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.deps.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.runtimeconfig.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Khaabar Ghor.pdb
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets.build.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets.development.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets\msbuild.Khaabar Ghor.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets\msbuild.build.Khaabar Ghor.props
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Khaabar Ghor.props
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Khaabar Ghor.props
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\scopedcss\bundle\Khaabar Ghor.styles.css
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\scopedcss\projectbundle\Khaabar Ghor.bundle.scp.css
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\refint\Khaabar Ghor.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.pdb
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.genruntimeconfig.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\ref\Khaabar Ghor.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Azure.Core.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Azure.Identity.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Humanizer.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.ClientModel.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.CodeDom.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Formats.Asn1.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Memory.Data.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Text.Json.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar Ghor.csproj.AssemblyReference.cache
+D:\Restaurant Website\Khaabar Ghor\Khaabar Ghor\obj\Debug\net8.0\Khaabar .581C854C.Up2Date
