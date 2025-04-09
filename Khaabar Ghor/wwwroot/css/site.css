@@ -89,12 +89,7 @@ body {
 
 
 /* Footer Styles */
-.footer {
-    background-color: #2c3e50;
-    color: white;
-    padding: 15px 0;
-    margin-top: auto; /* This pushes the footer to the bottom */
-}
+
 
     .footer a {
         color: #1abc9c;
@@ -106,3 +101,13 @@ body {
         .footer a:hover {
             color: #e74c3c;
         }
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+    background-color: #2c3e50;
+    color: white;
+   
+}

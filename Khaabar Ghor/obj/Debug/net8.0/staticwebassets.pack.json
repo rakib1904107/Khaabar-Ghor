@@ -5,12 +5,20 @@
       "PackagePath": "staticwebassets\\Khaabar Ghor.bundle.scp.css"
     },
     {
+      "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\home.css",
+      "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
       "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
       "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\images\\hero-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-bg.jpg"
     },
     {
       "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\js\\site.js",

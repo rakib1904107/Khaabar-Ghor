@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "uTNT6BeHpDV1zCAfYsYfWkVwizzoTwcVlRL4eLdtzTs=",
+  "Hash": "cF4sWc5GtS/KSgqzyK43fFUUT0aaHOdzY7KvBBHxD3U=",
   "Source": "Khaabar Ghor",
   "BasePath": "_content/Khaabar Ghor",
   "Mode": "Default",
@@ -55,6 +55,25 @@
       "OriginalItemSpec": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Khaabar Ghor.bundle.scp.css"
     },
     {
+      "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\home.css",
+      "SourceId": "Khaabar Ghor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\",
+      "BasePath": "_content/Khaabar Ghor",
+      "RelativePath": "css/home.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
       "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\site.css",
       "SourceId": "Khaabar Ghor",
       "SourceType": "Discovered",
@@ -91,6 +110,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\images\\hero-bg.jpg",
+      "SourceId": "Khaabar Ghor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\",
+      "BasePath": "_content/Khaabar Ghor",
+      "RelativePath": "images/hero-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hero-bg.jpg"
     },
     {
       "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\js\\site.js",

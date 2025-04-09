@@ -1,50 +1,183 @@
-﻿<!DOCTYPE html>
+﻿@using Khaabar_Ghor.Models.Domain
+@using Microsoft.AspNetCore.Identity
+<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Meta Tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - Khaabar_Ghor</title>
+
+    <!-- Page Title -->
+    <title>@ViewData["Title"] - Khaabar Ghor</title>
+
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Khaabar_Ghor.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/J102928.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/site-styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+
+   
 </head>
 <body>
+    @inject SignInManager<User> SignInManager
+    @inject UserManager<User> UserManager
+
+    <!-- Header & Navigation Bar -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index">Khaabar_Ghor</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                <!-- Brand Logo -->
+                <a class="navbar-brand fw-bold" asp-area="" asp-page="/Index">Khaabar Ghor</a>
+
+                <!-- Navbar Toggler (for mobile) -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Privacy">Privacy</a>
-                        </li>
+
+                <!-- Navbar Items -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Index">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/About">About</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Menu">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Contact">Contact</a></li>
+
+                        <!-- Admin Menu (Visible only if user is signed in as Admin) -->
+                        @if (SignInManager.IsSignedIn(User) && User.Identity?.Name == "admin@gmail.com")
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Admin
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="adminDropdown">
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-page="/Admin/AddMenuItem">
+                                            Add Menu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-page="/Orders">
+                                            Order List
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    </ul>
+
+                    <!-- User Account & Cart -->
+                    <ul class="navbar-nav ms-auto">
+                        @if (SignInManager.IsSignedIn(User) && User.Identity?.Name != "admin@gmail.com")
+                        {
+
+                            <li class="nav-item me-3">
+                                <a class="nav-link position-relative" asp-page="/CheckOut" id="cartLink">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger cart-count" id="cartCount">
+                                        0
+                                    </span>
+                                </a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hello, @UserManager.GetUserAsync(User).Result?.Name!
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+                                    <li>
+                                        <form class="form-inline" asp-page="/Login" asp-page-handler="Logout" method="post">
+                                            <button type="submit" class="dropdown-item">Logout</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else if (SignInManager.IsSignedIn(User) && User.Identity?.Name == "admin@gmail.com")
+                        {
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                    Hello, @UserManager.GetUserAsync(User).Result?.Name!
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-page="/Admin/AddMenu">
+                                            Add Menu
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" asp-area="" asp-page="/OrderList">
+                                            Order List
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <form class="form-inline" asp-page="/Login" asp-page-handler="Logout" method="post">
+                                            <button type="submit" class="dropdown-item">Logout</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item"><a class="nav-link" asp-page="/Account">Login/Register</a></li>
+                        }
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
 
-    <footer class="border-top footer text-muted">
+    <!-- Main Content -->
+    <main role="main" class="pb-3">
+        @RenderBody()
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
         <div class="container">
-            &copy; 2025 - Khaabar_Ghor - <a asp-area="" asp-page="/Privacy">Privacy</a>
+            &copy; 2025 - Khaabar Ghor - <a asp-area="" asp-page="/Privacy">Privacy</a>
         </div>
     </footer>
 
+    <!-- Scripts -->
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <!-- Cart Update Script -->
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <script>
+            // Function to update cart count
+            function updateCartCount() {
+                fetch('/api/Cart/GetCartCount')
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            document.getElementById('cartCount').textContent = data.count;
+                        }
+                    })
+                    .catch(error => console.error('Error:', error));
+            }
+
+            // Update cart count on page load
+            document.addEventListener('DOMContentLoaded', function () {
+                updateCartCount();
+            });
+
+            // Listen for custom event when item is added to cart
+            document.addEventListener('cartUpdated', function () {
+                updateCartCount();
+            });
+        </script>
+    }
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
