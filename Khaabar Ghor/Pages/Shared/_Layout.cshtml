@@ -44,28 +44,6 @@
                         <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Menu">Menu</a></li>
                         <li class="nav-item"><a class="nav-link" asp-area="" asp-page="/Contact">Contact</a></li>
 
-                        <!-- Admin Menu (Visible only if user is signed in as Admin) -->
-                        @if (SignInManager.IsSignedIn(User) && User.Identity?.Name == "admin@gmail.com")
-                        {
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="adminDropdown" role="button"
-                                   data-bs-toggle="dropdown" aria-expanded="false">
-                                    Admin
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="adminDropdown">
-                                    <li>
-                                        <a class="dropdown-item" asp-area="" asp-page="/Admin/AddMenuItem">
-                                            Add Menu
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a class="dropdown-item" asp-area="" asp-page="/Orders">
-                                            Order List
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        }
                     </ul>
 
                     <!-- User Account & Cart -->
@@ -89,7 +67,7 @@
                                 </a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
                                     <li>
-                                        <form class="form-inline" asp-page="/Login" asp-page-handler="Logout" method="post">
+                                        <form class="form-inline" asp-page="/Account" asp-page-handler="Logout" method="post">
                                             <button type="submit" class="dropdown-item">Logout</button>
                                         </form>
                                     </li>
@@ -107,17 +85,17 @@
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
 
                                     <li>
-                                        <a class="dropdown-item" asp-area="" asp-page="/Admin/AddMenu">
+                                        <a class="dropdown-item" asp-area="" asp-page="/Admin/AddMenuItem">
                                             Add Menu
                                         </a>
                                     </li>
                                     <li>
-                                        <a class="dropdown-item" asp-area="" asp-page="/OrderList">
+                                        <a class="dropdown-item" asp-area="" asp-page="/Orders">
                                             Order List
                                         </a>
                                     </li>
                                     <li>
-                                        <form class="form-inline" asp-page="/Login" asp-page-handler="Logout" method="post">
+                                        <form class="form-inline" asp-page="/Account" asp-page-handler="Logout" method="post">
                                             <button type="submit" class="dropdown-item">Logout</button>
                                         </form>
                                     </li>

@@ -1,0 +1,98 @@
+﻿@page
+@model Khaabar_Ghor.Pages.AccountModel
+@{
+    ViewData["Title"] = "Login/Register";
+}
+
+<link rel="stylesheet" href="~/css/account.css" />
+
+<div class="account-container">
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+    }
+    @if (TempData["ErrorMessage"] != null)
+    {
+        <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+    }
+
+    <div class="tabs">
+        <button class="tab-btn @(Model.ActiveTab == "login" ? "active" : "")" onclick="showTab('login')">Login</button>
+        <button class="tab-btn @(Model.ActiveTab == "register" ? "active" : "")" onclick="showTab('register')">Register</button>
+    </div>
+
+    <div id="login" class="tab-content @(Model.ActiveTab == "login" ? "active" : "")">
+        <h2>Login</h2>
+        <form method="post" asp-page-handler="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Login.Email">Email</label>
+                <input asp-for="Login.Email" class="form-control" />
+                <span asp-validation-for="Login.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Login.Password">Password</label>
+                <input asp-for="Login.Password" type="password" class="form-control" />
+                <span asp-validation-for="Login.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group remember-me">
+                <label><input asp-for="Login.RememberMe" type="checkbox" /> Remember me</label>
+            </div>
+            <button type="submit" class="btn-submit">Login</button>
+        </form>
+    </div>
+
+    <div id="register" class="tab-content @(Model.ActiveTab == "register" ? "active" : "")">
+        <h2>Register</h2>
+        <form method="post" asp-page-handler="Register">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Register.Name">Full Name</label>
+                <input asp-for="Register.Name" class="form-control" />
+                <span asp-validation-for="Register.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Register.Email">Email</label>
+                <input asp-for="Register.Email" class="form-control" />
+                <span asp-validation-for="Register.Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Register.PhoneNumber">Phone Number</label>
+                <input asp-for="Register.PhoneNumber" class="form-control" />
+                <span asp-validation-for="Register.PhoneNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Register.Password">Password</label>
+                <input asp-for="Register.Password" type="password" class="form-control" />
+                <span asp-validation-for="Register.Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Register.ConfirmPassword">Confirm Password</label>
+                <input asp-for="Register.ConfirmPassword" type="password" class="form-control" />
+                <span asp-validation-for="Register.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <button type="submit" class="btn-submit">Register</button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    <script>
+        function showTab(tabName) {
+            document.querySelectorAll('.tab-content').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-btn').forEach(btn => btn.classList.remove('active'));
+            document.getElementById(tabName).classList.add('active');
+            document.querySelector(`[onclick="showTab('${tabName}')"]`).classList.add('active');
+        }
+
+        document.addEventListener('DOMContentLoaded', function () {
+        @if (!ViewData.ModelState.IsValid)
+        {
+            @:showTab('@Model.ActiveTab');
+        }
+        });
+    </script>
+}
