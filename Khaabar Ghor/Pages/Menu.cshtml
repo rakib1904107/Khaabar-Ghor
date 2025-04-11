@@ -1,0 +1,122 @@
+﻿@page
+@using Khaabar_Ghor.Models.Domain
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<User> SignInManager
+@inject UserManager<User> UserManager
+@model Khaabar_Ghor.Pages.MenuModel
+@{
+    ViewData["Title"] = "Menu";
+}
+
+
+<!-- Include External CSS -->
+<link rel="stylesheet" href="~/css/home.css" />
+<link rel="stylesheet" href="~/css/menulist.css" />
+
+<div class="menu-container">
+    <h2 class="menu-title">Our Menu</h2>
+
+    <div class="category-filter">
+        @foreach (var category in new[] { "All", "Appetizers", "Main Course", "Desserts", "Beverages" })
+        {
+            <button class="filter-btn @(category == "All" ? "active" : "")" onclick="filterMenu('@category')">@category</button>
+        }
+    </div>
+
+    <div class="menu-grid">
+        @foreach (var item in Model.MenuItems)
+        {
+            <div class="menu-card" data-category="@item.Category">
+                <div class="menu-image">
+                    <img src="@item.ImageUrl" alt="@item.Name" />
+                </div>
+                <div class="menu-content">
+                    <h3 class="menu-item-title">@item.Name</h3>
+                    <div class="menu-item-footer">
+                        <span class="price">$@item.Price.ToString("0.00")</span>
+                    </div>
+
+                    @if (SignInManager.IsSignedIn(User) && User.Identity?.Name == "admin@gmail.com")
+                    {
+                        <div class="action-buttons">
+                            <a asp-page="/Admin/EditItem" asp-route-id="@item.Id" class="btn-update">Update</a>
+                            <form method="post" asp-page-handler="Delete" asp-route-id="@item.Id" onsubmit="return confirm('Are you sure you want to delete this item?');">
+                                <button type="submit" class="btn-delete">Delete</button>
+                            </form>
+                        </div>
+                    }
+                    else
+                    {
+                        <div class="cart-controls">
+                            <div class="quantity-controls">
+                                <button type="button" class="qty-btn decrease" data-id="@item.Id">-</button>
+                                <input type="number" id="qty-@item.Id" value="1" min="1" class="quantity-input" readonly>
+                                <button type="button" class="qty-btn increase" data-id="@item.Id">+</button>
+                            </div>
+                            <button type="button" class="add-to-cart-btn" data-id="@item.Id">
+                                <i class="fas fa-shopping-cart"></i> Add to Cart
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+<div id="cart-notification" class="cart-notification"></div>
+
+@section Scripts {
+    <script>
+        function filterMenu(category) {
+            document.querySelectorAll('.filter-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.innerText.toLowerCase() === category.toLowerCase());
+            });
+            document.querySelectorAll('.menu-card').forEach(item => {
+                item.style.display = (category === 'All' || item.dataset.category === category) ? 'block' : 'none';
+            });
+        }
+
+        document.addEventListener('click', function (e) {
+            if (e.target.classList.contains('qty-btn')) {
+                const input = document.getElementById(`qty-${e.target.dataset.id}`);
+                input.value = Math.max(1, parseInt(input.value) + (e.target.classList.contains('increase') ? 1 : -1));
+            }
+        });
+
+        document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+            button.addEventListener('click', function () {
+                const itemId = this.dataset.id;
+                const quantity = document.getElementById(`qty-${itemId}`).value;
+
+                fetch('/api/Cart/AddToCart', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ menuId: parseInt(itemId), quantity: parseInt(quantity) })
+                })
+                    .then(response => response.ok ? response.json() : Promise.reject('Network error'))
+                    .then(data => {
+                        showNotification(data.success ? 'Item added to cart successfully!' : 'Error adding item to cart', !data.success);
+                        if (data.success) {
+                            document.getElementById(`qty-${itemId}`).value = 1;
+                            document.dispatchEvent(new Event('cartUpdated'));
+                        }
+                    })
+                    .catch(error => {
+                        if (error === 'Network error') window.location.href = '/Account';
+                        showNotification('Error adding item to cart', true);
+                    });
+            });
+        });
+
+        function showNotification(message, isError = false) {
+            const notification = document.getElementById('cart-notification');
+            notification.textContent = message;
+            notification.style.backgroundColor = isError ? '#dc3545' : '#4CAF50';
+            notification.classList.add('show');
+            setTimeout(() => notification.classList.remove('show'), 2000);
+        }
+    </script>
+}
+
+

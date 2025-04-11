@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nu7EPShHrXR1NQZd7nIx7yIjvaRD4cOtFl2kHFx9ys8=",
+  "Hash": "WY3/aE1SBfNcxTIAL5jMiy7mSdGaFRhW8EfGqu0F3s8=",
   "Source": "Khaabar Ghor",
   "BasePath": "_content/Khaabar Ghor",
   "Mode": "Default",
@@ -93,6 +93,25 @@
       "OriginalItemSpec": "wwwroot\\css\\addmenuitem.css"
     },
     {
+      "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\edititem.css",
+      "SourceId": "Khaabar Ghor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\",
+      "BasePath": "_content/Khaabar Ghor",
+      "RelativePath": "css/edititem.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\edititem.css"
+    },
+    {
       "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\home.css",
       "SourceId": "Khaabar Ghor",
       "SourceType": "Discovered",
@@ -110,6 +129,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\home.css"
+    },
+    {
+      "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\menulist.css",
+      "SourceId": "Khaabar Ghor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\",
+      "BasePath": "_content/Khaabar Ghor",
+      "RelativePath": "css/menulist.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\menulist.css"
     },
     {
       "Identity": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\site.css",

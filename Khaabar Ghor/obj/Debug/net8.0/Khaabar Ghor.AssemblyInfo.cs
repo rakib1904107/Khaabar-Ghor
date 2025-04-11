@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Khaabar Ghor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df03816ce58c68bcc954b570bbbd423198f9d84b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+81b1861e08f0bbc4e90b83618f581ecbf9d5f960")]
 [assembly: System.Reflection.AssemblyProductAttribute("Khaabar Ghor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Khaabar Ghor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

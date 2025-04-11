@@ -13,8 +13,16 @@
       "PackagePath": "staticwebassets\\css\\addmenuitem.css"
     },
     {
+      "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\edititem.css",
+      "PackagePath": "staticwebassets\\css\\edititem.css"
+    },
+    {
       "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\home.css",
       "PackagePath": "staticwebassets\\css\\home.css"
+    },
+    {
+      "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\menulist.css",
+      "PackagePath": "staticwebassets\\css\\menulist.css"
     },
     {
       "Id": "D:\\Restaurant Website\\Khaabar Ghor\\Khaabar Ghor\\wwwroot\\css\\site.css",
